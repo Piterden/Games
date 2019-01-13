@@ -1,0 +1,50 @@
+button{
+    width: 200px;
+    height: 80px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    transition: all ease 0.5s;
+    border: none;
+}
+button:active{
+    border: none;
+    opacity: .1;
+}
+button:hover{
+    opacity: .8;
+}
+.btn{
+    width: 250px;
+    height: 100px;
+    margin: 0 auto;
+}
+.p{
+    width: 230px;
+    color: red;
+    font-size: 30px;
+    margin: 20px auto;
+}
+.bekha img, .aziz img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.bekha, .aziz{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    line-height: 1.25;
+    color: #191970;
+    transition: 1s ease all;
+}
+.aziz img{
+    object-fit: contain;
+}
+.www{
+    color: red;
+}
