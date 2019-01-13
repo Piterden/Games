@@ -12,7 +12,7 @@ function PlayGame(){
     let random = Math.ceil(Math.random() * 10000);
     console.log(random);
     
-    let answer = prompt('Какое число я задал?' + random);
+    let answer = prompt('Какое число я задал?');
     let guess = 0;
     
     while(answer != random){
@@ -37,7 +37,7 @@ function PlayGame(){
         let secondRandom = Math.ceil(Math.random() * 1000000);
         console.log(secondRandom);
 
-        let secondAnswer = prompt('Какое число я задал?' + secondRandom);
+        let secondAnswer = prompt('Какое число я задал?');
         let secondGuess = 0;
 
         while(secondAnswer != secondRandom){
