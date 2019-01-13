@@ -24,6 +24,10 @@ function PlayGame(){
             answer = prompt('Много, попробуй еще раз!');
             guess++;
         }
+        if(answer == null){
+            alert(name +' ты отменил игру!');
+            return;
+        }
     }
     alert('Молодец! '+ name +' ты угадал(a) за '+ guess +' попыток!');  
 
@@ -44,6 +48,10 @@ function PlayGame(){
             if(secondAnswer > secondRandom){
                 secondAnswer = prompt('Много, попробуй еще раз!');
                 secondGuess++;
+            }
+            if(secondAnswer == null){
+                alert(name +' ты отменил игру!');
+                return;
             }
         }
         alert('Ты потрясающий человек '+ name +' ! Ты угадал(a) за '+ secondGuess +' попыток!');
